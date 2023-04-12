@@ -45,8 +45,9 @@ html, body {
     -webkit-transform: translate(-50%, -50%) scale(1, 1);
     transform: translate(-50%, -50%) scale(1, 1);
     visibility: visible;
-    padding: 20px;                                                    /*tutaj są zaokrąglenia*/
- border-radius: 12%;
+         border: 1px solid black;                     /*tutaj dodałam ramkę*/
+    padding-top: 20px;                                        /*margines górny, reszty nie określam, zobaczymy jak wyjdzie*/         
+         border-radius: 12%;                                   /*tutaj są zaokrąglenia*/
     font-size: 18px;
     font-weight: 400;
     text-align: center;
