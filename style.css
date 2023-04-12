@@ -98,5 +98,7 @@ html, body {
 .window_content img {
     display: none!important;
 }
-
+ 
+html, body {
+ background-colour: pink
 }
