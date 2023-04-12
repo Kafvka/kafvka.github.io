@@ -50,15 +50,15 @@ html, body {
     font-size: 18px;
     font-weight: 400;
     text-align: center;
-    background-color: red; /*sprawdźmy czy tutaj można zmienić kolor tła okienka*/
+    background-color: #ec3f22; /*tu zmieniam kolor tła okienka*/
 }
 
 .window_content .window_close {
     width: 30px;
     height: 30px;
     margin: -10px -10px 0 0;
-    border-radius: 23%;
-    background-color: #ec3f22;
+    border-radius: 14%;                                /*tutaj są zaokrąglenia*/
+    background-color: #black;
     color: #ffffff;
     position: absolute;
     right: 0;
