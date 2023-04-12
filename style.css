@@ -47,7 +47,7 @@ html, body {
     visibility: visible;
     padding: 20px;                                        /*margines górny, reszty nie określam, zobaczymy jak wyjdzie*/         
          border-radius: 15%;                                   /*tutaj są zaokrąglenia*/
-    font-size: 18px;
+    font-size: 70%;
     font-weight: 400;
     text-align: center;
     background-color: #ec3f22; /*tu zmieniam kolor tła okienka*/
