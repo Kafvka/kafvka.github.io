@@ -4,7 +4,7 @@ html, body {
  height: 100%;
  color: #000000;
  margin: 0 auto;
- background-color: #FFFFFF;
+ background-color: pink;  /*który to background? mojej strony? czy okienka?*/
  }
 
 #window_overlay {
