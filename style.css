@@ -45,7 +45,7 @@ html, body {
     -webkit-transform: translate(-50%, -50%) scale(1, 1);
     transform: translate(-50%, -50%) scale(1, 1);
     visibility: visible;
-    padding: 40px;                                                    /*tutaj są zaokrąglenia*/
+    padding: 30px;                                                    /*tutaj są zaokrąglenia*/
  border-radius: 12%;
     font-size: 18px;
     font-weight: 400;
