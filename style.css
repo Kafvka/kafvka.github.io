@@ -46,6 +46,7 @@ html, body {
     transform: translate(-50%, -50%) scale(1, 1);
     visibility: visible;
     padding: 40px;
+ border-radius: 10%;
     font-size: 18px;
     font-weight: 400;
     text-align: center;
