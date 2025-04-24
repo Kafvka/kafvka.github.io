@@ -1,13 +1,15 @@
 <html lang='pl'>
 <head>
-    <title>Urodzinki</title>
+    <title>Prezenty dla Kai</title>
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>  <!--to jest jakiś skrypt, żeby przeglądarka czytała mój plik css-->
-	
+    <!--dodaje popup-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!--dodałam-->
+
 </head>
 <style>
     body {
-        background-color: pink;
+        background-color: #fdd9f0;  
         font-family: Century Gothic;
         text-align: center;
         font-size: 100%;
@@ -23,20 +25,32 @@
     th, td {
         background-color: #c1f19b;
     }
-	
-tr:nth-child(4) td:nth-child(3) {                                      <!--zmiana koloru jedenj komórki, która już jest zarezerwowana-->
-  background-color: grey;
-}
 
+    footer {
+        background-color: pink;
+        font-family: Times New Roman;
+        font-size: 50%
+    }
 </style>
 
 <body>
+
+    <!--tutaj wklejam popup-->
+
+    <div id="window_overlay"></div>
+    <div id="window_entrance" class="window_content">
+        <a href="#" class="window_close">&times;</a>
+        <h2>UWAGA</h2><br>
+        Zmiana punktu zbiórki!
+    </div>
+
+    <!--tutaj skończyłam wklejać popup-->
 
     <br>
     <img width=200px src='https://cdn.pixabay.com/photo/2020/06/09/18/25/unicorn-5279567_1280.png'>
     <p>Z okazji moich ostatnich dwudziestych urodzin zapraszam na przyjęcie urodzinowe</p>
 
-    <label title='Taaak, właśnie wtedy się widzimy^^'><b>w dniu 13.05.2023 r. o godz. 18:00</b></label>
+    <label title='Taaak, właśnie wtedy się widzimy^^'><b>w dniu 13.05.2023 r. o godz. 17:00</b></label>
 
     <p>
         Spotykamy się
@@ -54,15 +68,18 @@ tr:nth-child(4) td:nth-child(3) {                                      <!--zmian
     <table style="width:100%">
         <tr>
             <td>
-               <s> Prostownica</s>
+                Prostownica np.
+                <a href='https://www.euro.com.pl/prostownice-i-karbownice/philips-bhs510-00.bhtml' target='blank'>ta</a>,
+                <a href='https://www.euro.com.pl/prostownice-i-karbownice/babyliss-st391e.bhtml' target='blank'>ta</a>, czy
+                <a href='https://www.euro.com.pl/prostownice-i-karbownice/remington-sleek-curl-s6500.bhtml' target='_blanked'>ta</a>
             </td>
-            <td><s>Puzzle</s> albo <a href='https://www.infinitemedstyle.pl/prezenty-medyczne/puzzle-histologiczne-infinite-jadra/' target="_blank">puzzle</a></td>
-            <td><s> Korektor pod oczy</s></td>
+            <td><a href='https://www.infinitemedstyle.pl/prezenty-medyczne/puzzle-histologiczne-infinite-serce/' target="_blank">Puzzle</a> albo <a href='https://www.infinitemedstyle.pl/prezenty-medyczne/puzzle-histologiczne-infinite-jadra/' target="_blank">puzzle</a></td>
+            <td><a href='https://m.toofaced.eu/pl/pl/product/23785/101564/face-makeup/concealer/born-this-way-super-coverage-concealer/new-full-coverage-concealer#/shade/Vanilla' target="_blank">Korektor pod oczy</a></td>
         </tr>
 
         <tr>
             <td>Gwiazdka z nieba</td>
-            <td><s>Floating</s> </td>
+            <td>Floating np. <a href='https://centrumfloatingu.pl/floating/'>tutaj</a></td>
             <td>
                 Karty tarota:
                 <a href='https://www.czarymary.pl/p_256_haindl_tarot' target='_blanked'>1</a>,
@@ -73,7 +90,7 @@ tr:nth-child(4) td:nth-child(3) {                                      <!--zmian
         </tr>
 
         <tr>
-            <td>Iniekcja kwasu hialuronowego pod oczy</td>
+            <td>Kwas hialuronowy pod oczy</td>
             <td>Zdrowy układ neuroprzekaźników</td>
             <td>Jeśli kwiaty to lilie, jeśli w kolorze to różowym</td>
         </tr>
@@ -84,25 +101,13 @@ tr:nth-child(4) td:nth-child(3) {                                      <!--zmian
             </td>
             <td>Biustonosz u brafiterki wybranej przez Iwi</td>
             <td>
-               <s> Elektryczna (najlepiej różowa) szczoteczka do zębów </s>
+                Elektryczna (najlepiej różowa) szczoteczka do zębów np. <a href='https://szczoteczki24.pl/szczoteczki-obrotowe/340-szczoteczka-elektryczna-oral-b-vitality-100-rozowa-4-koncowki-3d-clean-wyciskacze-do-pasty.html' target="_blank">taka</a>, <a href='https://www.sencor.pl/szczoteczki-do-zebow/soc-2201rs' target="_blank">ta</a>, albo <a href='https://www.shop-dent.pl/pl/products/oclean-x-pro-rozowa-szczoteczka-soniczna-do-zebow-z-kolorowym-ekranem-dotykowym-i-aplikacja-5397.html' target="_blank">taka</a>, albo <a href='https://www.shop-dent.pl/pl/products/philips-sonicare-protective-clean-4300-hx6806-03-pink-szczoteczka-soniczna-z-etui-podroznym-5580.html?nielicytowane&utm_source=ceneo&utm_medium=referral&ceneo_cid=710cce72-ab19-58b0-747c-addd850e7941' target="_blank">ta</a>.
 
             </td>
         </tr>
     </table>
     <br><br>
 
-
-<p>
-    Autorka: <address> <label title='Nie obchodzę jubileuszu, ani nie jestem emerytowaną duchowną (to z łaciny iubilatus po XVIII w.), dlatego z francuskiego obchodzę urodziny'>Solenizantka</label></address>
-    <p>
-        wszelkie, wszystkie, moje, twoje prawa zastrzeżone<br>
-        ich też
-    </p>
-	<br>
-	<img src='http://24.media.tumblr.com/9619ca2f19d9ef90f2765e571a02e055/tumblr_mnrty82b0I1s5xdt9o1_1280.gif'> <br>
-</p>
-
-	
     <!--tu wklejam kolejne dot popup-->
 
     <script>
@@ -120,6 +125,14 @@ tr:nth-child(4) td:nth-child(3) {                                      <!--zmian
     </script>
 
     <!--skończyłam kolejne dot popup-->
-	
+
 </body>
+<footer>
+    Autorka: <address> <label title='Nie obchodzę jubileuszu, ani nie jestem emerytowaną duchowną (to z łaciny iubilatus po XVIII w.), dlatego z francuskiego obchodzę urodziny'>Solenizantka</label></address>
+    <p>
+        wszelkie, wszystkie, moje, twoje prawa zastrzeżone<br>
+        ich też
+    </p>
+</footer>
+
 </html>
